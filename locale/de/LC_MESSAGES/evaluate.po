@@ -1,0 +1,30 @@
+# Copyright (C) YEAR ORGANIZATION
+#
+# Christoph Erhardt <github@sicherha.de>, 2022.
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"POT-Creation-Date: 2022-10-20 15:50+0200\n"
+"PO-Revision-Date: 2022-10-20 15:56+0200\n"
+"Last-Translator: Christoph Erhardt <github@sicherha.de>\n"
+"Language-Team: English <kde-i18n-doc@kde.org>\n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Generated-By: pygettext.py 1.5\n"
+"Language: en_GB\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Lokalize 22.08.1\n"
+
+#: evaluate.py:43
+msgid "Program"
+msgstr "Programm"
+
+#: evaluate.py:44
+msgid "Link time (s)"
+msgstr "Linkdauer (s)"
+
+#: evaluate.py:45
+msgid "RSS (GiB)"
+msgstr "RSS (GiB)"
+

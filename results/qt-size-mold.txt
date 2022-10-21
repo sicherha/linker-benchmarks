@@ -1,0 +1,8 @@
+  File: qtbase/lib/libQt6WebEngineCore.so.6.4.0
+  Size: 2967653122	Blocks: 5796208    IO Block: 4096   regular file
+Device: 253,3	Inode: 13904193    Links: 1
+Access: (0755/-rwxr-xr-x)  Uid: ( 1000/    chet)   Gid: ( 1000/    chet)
+Access: 2022-10-08 22:19:56.393405825 +0000
+Modify: 2022-10-08 22:19:57.627407079 +0000
+Change: 2022-10-08 22:19:59.398408881 +0000
+ Birth: 2022-10-08 22:19:56.393405825 +0000

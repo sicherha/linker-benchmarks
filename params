@@ -1,0 +1,5 @@
+OUTPATH=$PWD/results
+
+PROJECTS=(clang firefox qt)
+LINKERS=(bfd gold lld mold)
+ITERATIONS=11
