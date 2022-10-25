@@ -23,6 +23,7 @@ RUN dnf install -y --nodocs \
         libwebp-devel \
         lld \
         llvm-devel \
+        lshw \
         mercurial \
         minizip-compat-devel \
         mold \
@@ -37,6 +38,7 @@ RUN dnf install -y --nodocs \
         python3-devel \
         python3-html5lib \
         re2-devel \
+        redhat-lsb-core \
         snappy-devel \
         time \
         unzip && \

@@ -22,6 +22,8 @@ lshw -class storage -short 2> /dev/null \
      | grep -E '^\S+\s+\S+\s+storage+\s+\S+' \
      | sed -E 's/^\S+\s+\S+\s+storage\s+/* /'
 
+lsb_release -d | sed -E 's/^Description:\s+/* /'
+
 cat << EOF
 
 ## Results
