@@ -1,20 +1,20 @@
 	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.86
-	System time (seconds): 9.54
+	User time (seconds): 46.84
+	System time (seconds): 9.34
 	Percent of CPU this job got: 192%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.37
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.12
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14389636
+	Maximum resident set size (kbytes): 14364528
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720744
-	Minor (reclaiming a frame) page faults: 1108029
-	Voluntary context switches: 149911
-	Involuntary context switches: 631
+	Major (requiring I/O) page faults: 720733
+	Minor (reclaiming a frame) page faults: 1102042
+	Voluntary context switches: 149965
+	Involuntary context switches: 648
 	Swaps: 0
-	File system inputs: 11192
+	File system inputs: 12232
 	File system outputs: 5758512
 	Socket messages sent: 0
 	Socket messages received: 0
@@ -22,112 +22,43 @@
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 47.06
-	System time (seconds): 9.30
-	Percent of CPU this job got: 192%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.33
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14358116
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720414
-	Minor (reclaiming a frame) page faults: 1099944
-	Voluntary context switches: 150735
-	Involuntary context switches: 638
-	Swaps: 0
-	File system inputs: 8
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 47.23
-	System time (seconds): 9.52
-	Percent of CPU this job got: 190%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.82
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14378072
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720416
-	Minor (reclaiming a frame) page faults: 1104953
-	Voluntary context switches: 149369
-	Involuntary context switches: 562
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.80
-	System time (seconds): 9.42
-	Percent of CPU this job got: 189%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.61
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14369508
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720370
-	Minor (reclaiming a frame) page faults: 1102752
-	Voluntary context switches: 149046
-	Involuntary context switches: 665
-	Swaps: 0
-	File system inputs: 8
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 47.10
-	System time (seconds): 9.56
-	Percent of CPU this job got: 191%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.59
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14363076
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720426
-	Minor (reclaiming a frame) page faults: 1101152
-	Voluntary context switches: 151839
-	Involuntary context switches: 641
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 47.18
+	User time (seconds): 46.39
 	System time (seconds): 9.61
-	Percent of CPU this job got: 191%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.58
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.96
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14373456
+	Maximum resident set size (kbytes): 14353928
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720414
-	Minor (reclaiming a frame) page faults: 1103733
-	Voluntary context switches: 150754
-	Involuntary context switches: 724
+	Major (requiring I/O) page faults: 720454
+	Minor (reclaiming a frame) page faults: 1099209
+	Voluntary context switches: 148755
+	Involuntary context switches: 612
+	Swaps: 0
+	File system inputs: 8
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 46.74
+	System time (seconds): 9.29
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.98
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14380440
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720512
+	Minor (reclaiming a frame) page faults: 1105879
+	Voluntary context switches: 148404
+	Involuntary context switches: 577
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 5758512
@@ -137,20 +68,20 @@
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.65
-	System time (seconds): 9.40
+	User time (seconds): 46.67
+	System time (seconds): 9.59
 	Percent of CPU this job got: 192%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.11
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.23
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14364112
+	Maximum resident set size (kbytes): 14378836
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720404
-	Minor (reclaiming a frame) page faults: 1101529
-	Voluntary context switches: 150945
-	Involuntary context switches: 586
+	Major (requiring I/O) page faults: 720478
+	Minor (reclaiming a frame) page faults: 1105300
+	Voluntary context switches: 150291
+	Involuntary context switches: 639
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 5758512
@@ -160,20 +91,20 @@
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 47.04
-	System time (seconds): 9.39
-	Percent of CPU this job got: 190%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.55
+	User time (seconds): 48.05
+	System time (seconds): 9.25
+	Percent of CPU this job got: 186%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.65
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14349128
+	Maximum resident set size (kbytes): 14361588
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720469
-	Minor (reclaiming a frame) page faults: 1097620
-	Voluntary context switches: 150165
-	Involuntary context switches: 602
+	Major (requiring I/O) page faults: 720472
+	Minor (reclaiming a frame) page faults: 1101046
+	Voluntary context switches: 149031
+	Involuntary context switches: 662
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 5758512
@@ -183,66 +114,135 @@
 	Page size (bytes): 4096
 	Exit status: 0
 	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.51
+	User time (seconds): 46.38
+	System time (seconds): 9.28
+	Percent of CPU this job got: 191%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.03
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14353840
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720363
+	Minor (reclaiming a frame) page faults: 1099247
+	Voluntary context switches: 151440
+	Involuntary context switches: 618
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 46.88
+	System time (seconds): 9.45
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14354140
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720520
+	Minor (reclaiming a frame) page faults: 1099163
+	Voluntary context switches: 149527
+	Involuntary context switches: 573
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 46.57
+	System time (seconds): 9.52
+	Percent of CPU this job got: 192%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.10
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14379616
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720429
+	Minor (reclaiming a frame) page faults: 1105641
+	Voluntary context switches: 148523
+	Involuntary context switches: 573
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 47.71
+	System time (seconds): 9.41
+	Percent of CPU this job got: 185%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.72
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14345332
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720471
+	Minor (reclaiming a frame) page faults: 1097030
+	Voluntary context switches: 150621
+	Involuntary context switches: 593
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 46.48
+	System time (seconds): 9.41
+	Percent of CPU this job got: 193%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:28.91
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 14344432
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 720439
+	Minor (reclaiming a frame) page faults: 1096693
+	Voluntary context switches: 151510
+	Involuntary context switches: 589
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5758512
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
+	User time (seconds): 47.77
 	System time (seconds): 9.48
-	Percent of CPU this job got: 191%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.20
+	Percent of CPU this job got: 186%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:30.62
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14377276
+	Maximum resident set size (kbytes): 14382096
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720445
-	Minor (reclaiming a frame) page faults: 1104638
-	Voluntary context switches: 150173
-	Involuntary context switches: 595
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.89
-	System time (seconds): 9.37
-	Percent of CPU this job got: 191%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.33
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14391800
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720407
-	Minor (reclaiming a frame) page faults: 1108352
-	Voluntary context switches: 148750
-	Involuntary context switches: 614
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 5758512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "clang++ -fPIC -g -Wl,--version-script,/benchmarks/qt/qt5/build/qtwebengine/src/core/api/WebEngineCore.version -Wl,--no-undefined @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_objects.rsp -Wl,--gc-sections -Wl,--enable-new-dtags -shared -Wl,-soname,libQt6WebEngineCore.so.6 -o qtbase/lib/libQt6WebEngineCore.so.6.4.0 qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/WebEngineCore_autogen/mocs_compilation.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qtwebenginecoreglobal.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecertificateerror.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificateselection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineclientcertificatestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecontextmenurequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginecookiestore.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginedownloadrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefilesystemaccessrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefindtextresult.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginefullscreenrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehistory.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginehttprequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineloadinginfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginemessagepumpscheduler.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenavigationrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenewwindowrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginenotification.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginepage.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineprofile.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginequotarequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineregisterprotocolhandlerrequest.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescript.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginescriptcollection.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebenginesettings.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestinfo.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlrequestjob.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlscheme.cpp.o qtwebengine/src/core/api/CMakeFiles/WebEngineCore.dir/qwebengineurlschemehandler.cpp.o -Wl,-rpath,/benchmarks/qt/qt5/build/qtbase/lib: qtbase/lib/libQt6WebChannel.so.6.4.0 qtbase/lib/libQt6Positioning.so.6.4.0 -Wl,--start-group @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_archives.rsp -Wl,--end-group -Wl,--no-fatal-warnings @/benchmarks/qt/qt5/build/qtwebengine/src/core/Debug/x86_64/QtWebEngineCore_libs.rsp -Wl,--no-fatal-warnings qtbase/lib/libQt6Quick.so.6.4.0 qtbase/lib/libQt6OpenGL.so.6.4.0 qtbase/lib/libQt6Gui.so.6.4.0 /usr/lib64/libGLX.so /usr/lib64/libOpenGL.so /usr/lib64/libxkbcommon.so qtbase/lib/libQt6QmlModels.so.6.4.0 qtbase/lib/libQt6Qml.so.6.4.0 qtbase/lib/libQt6Network.so.6.4.0 qtbase/lib/libQt6Core.so.6.4.0 -Wl,-rpath-link,/benchmarks/qt/qt5/build/qtbase/lib -fuse-ld=lld"
-	User time (seconds): 46.60
-	System time (seconds): 9.35
-	Percent of CPU this job got: 190%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:29.40
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 14351076
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 720442
-	Minor (reclaiming a frame) page faults: 1098015
-	Voluntary context switches: 145630
-	Involuntary context switches: 602
+	Major (requiring I/O) page faults: 720405
+	Minor (reclaiming a frame) page faults: 1106267
+	Voluntary context switches: 150127
+	Involuntary context switches: 566
 	Swaps: 0
 	File system inputs: 0
 	File system outputs: 5758512
