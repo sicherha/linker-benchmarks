@@ -4,13 +4,17 @@ import gettext
 import locale
 import matplotlib.pyplot
 import pandas
+import pathlib
 import re
 import seaborn
 import subprocess
 import sys
 import time
 
-subprocess.run(["find", "locale", "-iname", "*.po", "-exec", "msgfmt.py", "{}", "+"])
+for poFile in pathlib.Path("locale").rglob("*.po"):
+    moFile = re.sub(r"\.po$", ".mo", str(poFile))
+    subprocess.run(["msgfmt", "-o", moFile, str(poFile)])
+
 try:
     _ = gettext.translation("evaluate", "locale").gettext
 except FileNotFoundError:
