@@ -10,7 +10,7 @@ EXE_FILE=bin/clang-$(cat "$BASEDIR/version" | cut -d . -f 1)
 
 mkdir -p "$OUTPATH"
 cd "$BASEDIR/llvm-project/build"
-command=$(sed -E 's|^/usr/lib64/ccache/||' < tools/clang/tools/driver/CMakeFiles/clang.dir/link.txt)
+command=$(sed -E 's|^/usr/lib64/ccache/||' < tools/clang/tools/driver/CMakeFiles/clang.dir/link.txt | sed -E 's/"(\S+)"/\1/')
 
 for linker in "${LINKERS[@]}"; do
   timefile=$OUTPATH/clang-time-$linker.txt
