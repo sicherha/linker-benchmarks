@@ -123,11 +123,9 @@ link_times = pandas.DataFrame()
 rss_sizes = pandas.DataFrame()
 
 for project, project_description in PROJECT_DESCRIPTIONS.items():
-    min_binary_size = sys.maxsize
-    for linker in LINKERS:
-        binary_size = get_binary_size(f"results/{project}-size-{linker}.txt")
-        if binary_size < min_binary_size:
-            min_binary_size = binary_size
+    min_binary_size = min(
+        [get_binary_size(f"results/{project}-size-{linker}.txt") for linker in LINKERS]
+    )
     project_description = locale.format_string(
         "%s\n(%.01f GiB)",
         (project_description, min_binary_size / 1024 / 1024 / 1024),
