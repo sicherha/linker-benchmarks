@@ -122,7 +122,7 @@ def draw_graph(metric: str, data: pandas.DataFrame, palette: str, ci=95, **kwarg
 link_times = pandas.DataFrame()
 rss_sizes = pandas.DataFrame()
 
-for project in ["clang", "firefox", "qt"]:
+for project, project_description in PROJECT_DESCRIPTIONS.items():
     min_binary_size = sys.maxsize
     for linker in LINKERS:
         binary_size = get_binary_size(f"results/{project}-size-{linker}.txt")
@@ -130,7 +130,7 @@ for project in ["clang", "firefox", "qt"]:
             min_binary_size = binary_size
     project_description = locale.format_string(
         "%s\n(%.01f GiB)",
-        (PROJECT_DESCRIPTIONS[project], min_binary_size / 1024 / 1024 / 1024),
+        (project_description, min_binary_size / 1024 / 1024 / 1024),
     )
 
     for linker in LINKERS:
