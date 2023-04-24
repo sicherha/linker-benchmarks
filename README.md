@@ -3,7 +3,7 @@
 * Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
 * 32 GiB RAM
 * KXG6AZNV1T02 NVMe SED TOSHIBA 1024GB
-* Fedora release 37 (Thirty Seven)
+* Fedora release 38 (Thirty Eight)
 
 ## Results
 ### Memory use

@@ -17,6 +17,7 @@ RUN dnf install -y --nodocs \
         gperf \
         gtk3-devel \
         lcms2-devel \
+        libdrm-devel \
         libSM-devel \
         libstdc++-static \
         libvpx-devel \
