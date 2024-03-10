@@ -1,6 +1,6 @@
-#!/bin/sh
+#!/bin/bash
 
-set -eu
+set -eu -o pipefail
 
 OUTFILE=README.md
 
