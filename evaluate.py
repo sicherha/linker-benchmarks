@@ -98,14 +98,16 @@ def add_bar_labels(grid: seaborn.FacetGrid, labels: list[str], **kwargs):
         i += len(container.get_children())
 
 
-def draw_graph(metric: str, data: pandas.DataFrame, palette: str, ci=95, **kwargs):
+def draw_graph(
+    metric: str, data: pandas.DataFrame, palette: str, errorbar=("ci", 95), **kwargs
+):
     seaborn.set_palette(seaborn.color_palette(palette, len(LINKERS)))
     grid = seaborn.catplot(
         x=PROGRAM,
         y=metric,
         hue="Linker",
         data=data,
-        ci=ci,
+        errorbar=errorbar,
         kind="bar",
         aspect=1.1,
     )
@@ -168,5 +170,5 @@ for project, project_description in PROJECT_DESCRIPTIONS.items():
 draw_graph(LINK_TIME, link_times, "magma", padding=5)
 matplotlib.pyplot.savefig("link-times.svg")
 
-draw_graph(RSS_SIZE, rss_sizes, "viridis", ci=None)
+draw_graph(RSS_SIZE, rss_sizes, "viridis", errorbar=None)
 matplotlib.pyplot.savefig("rss.svg")
