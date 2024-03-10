@@ -1,9 +1,9 @@
 # Linker benchmarks
 ## Test system
-* Intel(R) Core(TM) i9-9880H CPU @ 2.30GHz
-* 32 GiB RAM
-* KXG6AZNV1T02 NVMe SED TOSHIBA 1024GB
-* Fedora release 38 (Thirty Eight)
+* AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics
+* 31 GiB RAM
+* SKHynix_HFS001TEJ9X162N
+* Fedora release 39 (Thirty Nine)
 
 ## Results
 ### Memory use

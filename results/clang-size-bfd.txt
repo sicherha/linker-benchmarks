@@ -1,8 +1,8 @@
-  File: bin/clang-16
-  Size: 1515171048	Blocks: 2959320    IO Block: 4096   regular file
-Device: 0,41	Inode: 61422384    Links: 1
+  File: bin/clang-18
+  Size: 1653879632	Blocks: 3230240    IO Block: 4096   regular file
+Device: 0,38	Inode: 7154608     Links: 1
 Access: (0755/-rwxr-xr-x)  Uid: ( 1000/    chet)   Gid: ( 1000/    chet)
-Access: 2023-09-04 10:03:04.578885317 +0000
-Modify: 2023-09-04 10:03:07.833892852 +0000
-Change: 2023-09-04 10:03:07.833892852 +0000
- Birth: 2023-09-04 10:02:48.901849030 +0000
+Access: 2024-03-10 13:42:26.527519157 +0000
+Modify: 2024-03-10 13:42:28.872506885 +0000
+Change: 2024-03-10 13:42:28.872506885 +0000
+ Birth: 2024-03-10 13:42:08.695614243 +0000
