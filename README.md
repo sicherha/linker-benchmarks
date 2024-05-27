@@ -3,7 +3,7 @@
 * AMD Ryzen 7 PRO 7840U w/ Radeon 780M Graphics
 * 31 GiB RAM
 * SKHynix_HFS001TEJ9X162N
-* Fedora release 39 (Thirty Nine)
+* Fedora release 40 (Forty)
 
 ## Results
 ### Memory use

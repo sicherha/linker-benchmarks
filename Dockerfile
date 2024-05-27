@@ -26,7 +26,7 @@ RUN dnf install -y --nodocs \
         llvm-devel \
         lshw \
         mercurial \
-        minizip-compat-devel \
+        mesa-libgbm-devel \
         mold \
         ninja-build \
         nodejs \
