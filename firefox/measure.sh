@@ -8,8 +8,9 @@ BASEDIR=$(cd "$(dirname "$0")" && pwd)
 
 mkdir -p "$OUTPATH"
 cd "$BASEDIR/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build"
-rm -f libxul.so
-command=$(make libxul.so | grep clang | sed -E 's|^/usr/bin/ccache\s+||')
+LIBRARY=../../../dist/bin/libxul.so
+rm -f "$LIBRARY"
+command=$(make "$LIBRARY" | grep clang | sed -E 's|^/usr/bin/ccache\s+||')
 
 for linker in "${LINKERS[@]}"; do
   timefile=$OUTPATH/firefox-time-$linker.txt
@@ -24,7 +25,7 @@ for linker in "${LINKERS[@]}"; do
     sleep 8
   done
 
-  stat libxul.so > "$sizefile"
+  stat "$LIBRARY" > "$sizefile"
 done
 
 # shellcheck disable=SC2086
