@@ -6,7 +6,7 @@ BASEDIR=$(cd "$(dirname "$0")" && pwd)
 
 . "$BASEDIR/../params"
 
-EXE_FILE=bin/clang-$(cat "$BASEDIR/version" | cut -d . -f 1)
+EXE_FILE=bin/clang-$(cut -d . -f 1 "$BASEDIR/version")
 
 mkdir -p "$OUTPATH"
 cd "$BASEDIR/llvm-project/build"
