@@ -10,7 +10,7 @@ mkdir -p "$OUTPATH"
 cd "$BASEDIR/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build"
 LIBRARY=../../../dist/bin/libxul.so
 rm -f "$LIBRARY"
-command=$(make "$LIBRARY" | grep clang | sed -E 's|^/usr/bin/ccache\s+||')
+command=$(make "$LIBRARY" | grep clang | sed -E 's/(^\/usr\/bin\/ccache|-Wl,--icf=safe)\s+//g')
 
 for linker in "${LINKERS[@]}"; do
   timefile=$OUTPATH/firefox-time-$linker.txt
