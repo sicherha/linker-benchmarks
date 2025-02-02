@@ -1,251 +1,251 @@
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.61
-	System time (seconds): 10.66
-	Percent of CPU this job got: 600%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:04.04
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.00
+	System time (seconds): 9.68
+	Percent of CPU this job got: 661%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.58
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9293544
+	Maximum resident set size (kbytes): 9764920
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 530
-	Minor (reclaiming a frame) page faults: 1027069
-	Voluntary context switches: 59631
-	Involuntary context switches: 9122
-	Swaps: 0
-	File system inputs: 3936
-	File system outputs: 4962512
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.22
-	System time (seconds): 11.31
-	Percent of CPU this job got: 691%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.54
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9294876
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 527
-	Minor (reclaiming a frame) page faults: 1026661
-	Voluntary context switches: 57655
-	Involuntary context switches: 1272
+	Major (requiring I/O) page faults: 554
+	Minor (reclaiming a frame) page faults: 1078126
+	Voluntary context switches: 55325
+	Involuntary context switches: 796
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4960536
+	File system outputs: 5252456
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.17
-	System time (seconds): 10.89
-	Percent of CPU this job got: 692%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.13
+	System time (seconds): 10.20
+	Percent of CPU this job got: 669%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.63
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9292864
+	Maximum resident set size (kbytes): 9769120
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 527
-	Minor (reclaiming a frame) page faults: 1026393
-	Voluntary context switches: 56068
-	Involuntary context switches: 671
+	Major (requiring I/O) page faults: 549
+	Minor (reclaiming a frame) page faults: 1079279
+	Voluntary context switches: 53027
+	Involuntary context switches: 863
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958360
+	File system outputs: 5252520
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.66
-	System time (seconds): 11.33
-	Percent of CPU this job got: 707%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.53
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.30
+	System time (seconds): 9.68
+	Percent of CPU this job got: 630%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.80
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9290052
+	Maximum resident set size (kbytes): 9759804
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 525
-	Minor (reclaiming a frame) page faults: 1025631
-	Voluntary context switches: 55682
-	Involuntary context switches: 762
+	Major (requiring I/O) page faults: 553
+	Minor (reclaiming a frame) page faults: 1076901
+	Voluntary context switches: 58945
+	Involuntary context switches: 765
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958424
+	File system outputs: 5252776
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.45
-	System time (seconds): 10.71
-	Percent of CPU this job got: 696%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.46
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.08
+	System time (seconds): 10.02
+	Percent of CPU this job got: 664%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.62
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9298152
+	Maximum resident set size (kbytes): 9760212
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 528
-	Minor (reclaiming a frame) page faults: 1027580
-	Voluntary context switches: 57260
-	Involuntary context switches: 680
+	Major (requiring I/O) page faults: 555
+	Minor (reclaiming a frame) page faults: 1076965
+	Voluntary context switches: 57433
+	Involuntary context switches: 665
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958680
+	File system outputs: 5252072
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.51
-	System time (seconds): 10.77
-	Percent of CPU this job got: 698%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9294396
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 526
-	Minor (reclaiming a frame) page faults: 1026732
-	Voluntary context switches: 55435
-	Involuntary context switches: 678
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 4958360
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.36
-	System time (seconds): 11.01
-	Percent of CPU this job got: 700%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
-	Average shared text size (kbytes): 0
-	Average unshared data size (kbytes): 0
-	Average stack size (kbytes): 0
-	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9293488
-	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 529
-	Minor (reclaiming a frame) page faults: 1026482
-	Voluntary context switches: 58255
-	Involuntary context switches: 715
-	Swaps: 0
-	File system inputs: 0
-	File system outputs: 4958552
-	Socket messages sent: 0
-	Socket messages received: 0
-	Signals delivered: 0
-	Page size (bytes): 4096
-	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.61
-	System time (seconds): 11.37
-	Percent of CPU this job got: 691%
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.24
+	System time (seconds): 9.52
+	Percent of CPU this job got: 656%
 	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.61
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9290592
+	Maximum resident set size (kbytes): 9761860
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 524
-	Minor (reclaiming a frame) page faults: 1025748
-	Voluntary context switches: 57489
-	Involuntary context switches: 910
+	Major (requiring I/O) page faults: 549
+	Minor (reclaiming a frame) page faults: 1077463
+	Voluntary context switches: 56111
+	Involuntary context switches: 1071
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958936
+	File system outputs: 5252072
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.35
-	System time (seconds): 11.35
-	Percent of CPU this job got: 706%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.49
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.76
+	System time (seconds): 9.66
+	Percent of CPU this job got: 657%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.71
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9297260
+	Maximum resident set size (kbytes): 9763240
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 529
-	Minor (reclaiming a frame) page faults: 1027400
-	Voluntary context switches: 58458
-	Involuntary context switches: 616
+	Major (requiring I/O) page faults: 550
+	Minor (reclaiming a frame) page faults: 1077728
+	Voluntary context switches: 57363
+	Involuntary context switches: 794
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958360
+	File system outputs: 5252232
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.47
-	System time (seconds): 10.73
-	Percent of CPU this job got: 695%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.13
+	System time (seconds): 10.13
+	Percent of CPU this job got: 663%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.65
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9297088
+	Maximum resident set size (kbytes): 9764516
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 527
-	Minor (reclaiming a frame) page faults: 1027334
-	Voluntary context switches: 58150
-	Involuntary context switches: 695
+	Major (requiring I/O) page faults: 553
+	Minor (reclaiming a frame) page faults: 1078031
+	Voluntary context switches: 53249
+	Involuntary context switches: 847
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958744
+	File system outputs: 5252104
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
 	Page size (bytes): 4096
 	Exit status: 0
-	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
-	User time (seconds): 13.55
-	System time (seconds): 10.89
-	Percent of CPU this job got: 703%
-	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.47
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.11
+	System time (seconds): 10.06
+	Percent of CPU this job got: 664%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.63
 	Average shared text size (kbytes): 0
 	Average unshared data size (kbytes): 0
 	Average stack size (kbytes): 0
 	Average total size (kbytes): 0
-	Maximum resident set size (kbytes): 9294948
+	Maximum resident set size (kbytes): 9764280
 	Average resident set size (kbytes): 0
-	Major (requiring I/O) page faults: 527
-	Minor (reclaiming a frame) page faults: 1026876
-	Voluntary context switches: 58192
-	Involuntary context switches: 674
+	Major (requiring I/O) page faults: 550
+	Minor (reclaiming a frame) page faults: 1078037
+	Voluntary context switches: 55325
+	Involuntary context switches: 711
 	Swaps: 0
 	File system inputs: 0
-	File system outputs: 4958840
+	File system outputs: 5253256
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.17
+	System time (seconds): 9.76
+	Percent of CPU this job got: 663%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9764312
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 551
+	Minor (reclaiming a frame) page faults: 1078022
+	Voluntary context switches: 57674
+	Involuntary context switches: 721
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5252392
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.33
+	System time (seconds): 10.03
+	Percent of CPU this job got: 668%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.64
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9761528
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 551
+	Minor (reclaiming a frame) page faults: 1077397
+	Voluntary context switches: 55418
+	Involuntary context switches: 725
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5252040
+	Socket messages sent: 0
+	Socket messages received: 0
+	Signals delivered: 0
+	Page size (bytes): 4096
+	Exit status: 0
+	Command being timed: "/benchmarks/.mozbuild/clang/bin/clang++ --sysroot /benchmarks/.mozbuild/sysroot-x86_64-linux-gnu -U_FORTIFY_SOURCE -D_FORTIFY_SOURCE=2 -D_GLIBCXX_ASSERTIONS -fstack-protector-strong -fstack-clash-protection -ftrivial-auto-var-init=pattern -fstrict-flex-arrays=1 -fno-rtti -pthread -fno-sized-deallocation -fno-aligned-new -ffunction-sections -fdata-sections -fno-math-errno -fno-exceptions -fPIC -gdwarf-4 -O2 -fno-omit-frame-pointer -funwind-tables -shared -Wl,-z,defs -Wl,--gc-sections -Wl,-h,libxul.so -o ../../../dist/bin/libxul.so -Wl,@/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/toolkit/library/build/libxul_so.list -Wl,--build-id=sha1 -Wl,-z,noexecstack -Wl,-z,text -Wl,-z,relro -Wl,-z,now -Wl,-z,nocopyreloc -fuse-ld=lld -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/lib/x86_64-linux-gnu -Wl,-rpath-link,/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -fstack-protector-strong -fstack-clash-protection -Wl,-rpath-link,/benchmarks/firefox/mozilla-release/obj-x86_64-pc-linux-gnu/dist/bin ../../../js/src/build/libjs_static.a ../../../build/pure_virtual/libpure_virtual.a ../../../x86_64-unknown-linux-gnu/debug/libgkrust.a ../../../dist/bin/libmozsandbox.so ../../../dist/bin/libnspr4.so ../../../dist/bin/libplc4.so ../../../dist/bin/libplds4.so ../../../dist/bin/libgkcodecs.so ../../../dist/bin/liblgpllibs.so ../../../dist/bin/libnss3.so ../../../dist/bin/libnssutil3.so ../../../dist/bin/libsmime3.so ../../../dist/bin/libmozsqlite3.so ../../../dist/bin/libssl3.so ../../../dist/bin/libmozgtk.so ../../../dist/bin/libmozwayland.so -Wl,--version-script,libxul.so.symbols -lresolv -ldl -lrt -lX11 -lXcomposite -lXdamage -lXext -lXfixes -lXrandr -lXrender -lasound -lpthread -lc -lm -L/benchmarks/.mozbuild/sysroot-x86_64-linux-gnu/usr/lib/x86_64-linux-gnu -lfreetype -lfontconfig -lgtk-3 -lgdk-3 -lpangocairo-1.0 -lpango-1.0 -latk-1.0 -lcairo-gobject -lcairo -lgdk_pixbuf-2.0 -lgio-2.0 -lgobject-2.0 -lglib-2.0 -ldbus-1 -lxcb-shm -lX11-xcb -lxcb -lXcursor -lXi -fuse-ld=lld"
+	User time (seconds): 14.30
+	System time (seconds): 9.60
+	Percent of CPU this job got: 662%
+	Elapsed (wall clock) time (h:mm:ss or m:ss): 0:03.61
+	Average shared text size (kbytes): 0
+	Average unshared data size (kbytes): 0
+	Average stack size (kbytes): 0
+	Average total size (kbytes): 0
+	Maximum resident set size (kbytes): 9767060
+	Average resident set size (kbytes): 0
+	Major (requiring I/O) page faults: 551
+	Minor (reclaiming a frame) page faults: 1078637
+	Voluntary context switches: 57592
+	Involuntary context switches: 697
+	Swaps: 0
+	File system inputs: 0
+	File system outputs: 5252584
 	Socket messages sent: 0
 	Socket messages received: 0
 	Signals delivered: 0
