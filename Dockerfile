@@ -4,6 +4,7 @@ RUN dnf -y upgrade
 
 RUN dnf install -y --nodocs \
         alsa-lib-devel \
+        binutils-gold \
         bison \
         cargo \
         ccache \
