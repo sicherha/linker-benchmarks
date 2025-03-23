@@ -1,8 +1,8 @@
   File: ../../../dist/bin/libxul.so
-  Size: 2677947568	Blocks: 5230368    IO Block: 4096   regular file
-Device: 0,49	Inode: 17686904    Links: 1
+  Size: 2720334552	Blocks: 5313160    IO Block: 4096   regular file
+Device: 0,48	Inode: 18377550    Links: 1
 Access: (0755/-rwxr-xr-x)  Uid: ( 1000/    chet)   Gid: ( 1000/    chet)
-Access: 2025-01-24 14:28:20.942832818 +0000
-Modify: 2025-01-24 14:28:22.194840188 +0000
-Change: 2025-01-24 14:28:22.194840188 +0000
- Birth: 2025-01-24 14:27:55.627683797 +0000
+Access: 2025-03-23 20:01:35.807439806 +0000
+Modify: 2025-03-23 20:01:37.117281065 +0000
+Change: 2025-03-23 20:01:37.118530049 +0000
+ Birth: 2025-03-23 20:01:09.281317626 +0000
